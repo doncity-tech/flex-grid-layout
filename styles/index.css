@@ -1,0 +1,63 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.wrapper {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  width: 25%;
+  padding: 40px;
+  color: white;
+  line-height: 1.5;
+}
+
+.sedans {
+  background: hsl(31, 77%, 52%)
+}
+
+.suvs {
+  background: hsl(184, 100%, 22%)
+}
+
+.luxury {
+  background: hsl(179, 100%, 13%)
+}
+
+.card h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.card button {
+  border: 0;
+  background: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.card p {
+  margin-bottom: 50px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: 'Source Serif 4', serif;
+}
+
+.sedans button {
+  color: #e28525;
+}
+
+.suvs button {
+  color: #016972;
+}
+
+.luxury button {
+  color: #00403f;
+}
